@@ -372,6 +372,19 @@
      <!-- Footer -->
         <footer class="footer-features" id="footer">
             <div class="container footer-container">
+                <div class="footer-subscribe">
+                    <p class="footer-social-title">Subscribe</p>
+                    <form class="footer-form">
+                        <input type="email" name="email" placeholder="E-mail" class="footer-input">
+                
+                        <button type="submit" class="footer-btn">
+                            Subscribe
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
                 <div class="footer-left">
                     <a href="./index.html" class="footer-logo">Web<span class="footer-logo-color">Studio</span></a>
             <p class="footer-text">
@@ -422,9 +435,8 @@
             </div>
         </footer>
         <!-- BACKDROP + MODAL -->
-        <div class="backdrop" data-modal>
+        <div class="backdrop" id="modal" data-modal>
             <div class="modal">
-        
                 <button type="button" class="modal-close" data-modal-close>
                     <svg width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
