@@ -66,9 +66,8 @@
 </symbol>
 <symbol id="icon-close" viewBox="0 0 24 24">
 <rect width="24" height="24" rx="12" fill="#E7E9FC"/>
-  <rect x="0.5" y="0.5" width="23" height="23" rx="11.5" stroke="#2E2F42" stroke-opacity="0.4"/>
   <g clip-path="url(#clip0-close)">
-    <path d="M16 8.80571L15.1943 8L12 11.1943L8.80571 8L8 8.80571L11.1943 12L8 15.1943L8.80571 16L12 12.8057L15.1943 16L16 15.1943L12.8057 12L16 8.80571Z" fill="#2E2F42"/>
+    <path d="M16 8.80571L15.1943 8L12 11.1943L8.80571 8L8 8.80571L11.1943 12L8 15.1943L8.80571 16L12 12.8057L15.1943 16L16 15.1943L12.8057 12L16 8.80571Z" fill="currentColor"/>
   </g>
   <defs>
     <clipPath id="clip0-close">
@@ -87,6 +86,10 @@
 </symbol>
 <symbol id="icon-check" viewBox="0 0 16 16">
   <rect x="0.5" y="0.5" width="15" height="15" rx="1.5" stroke="#2E2F42" stroke-opacity="0.4"/>
+  <path d="M4 8L7 11L12 5" stroke="currentColor" stroke-width="2" fill="none"/>
+</symbol>
+<symbol id="icon-send" viewBox="0 0 165 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 12L20 4L13 12L20 20L2 12Z" />
 </symbol>
 </defs>
 </svg>
