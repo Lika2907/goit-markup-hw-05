@@ -19,8 +19,6 @@ ul {
     gap: 40px;
 }
 .container {
-    display: flex;
-    align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
